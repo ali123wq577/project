@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(student.jpg);
+    background-position: cover;
+    background-size: cover;
+    font-size: Arial,Helvetica,sans,serif;
+
+}
+.navbar{
+    background:    rgb(2, 66, 23);
+    text-align: cenrgb(220, 239, 6)
+
+
+}
+.navbar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: #fff;
+
+}
+.navbar ul li{
+    width: 120px;
+    padding: 15px;
+    margin: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul li:hover{
+    background: #57f423;
+    border-radius: 3px;
+}
+.navbar-1{
+    display: none;
+
+}
+.navbar ul li:hover .navbar-1{
+    display: block;
+    margin-top: 15px;
+    margin-left: -15px;
+    background: rgb(53, 53, 49);
+    position: absolute;
+}
+.navbar ul li:hover .navbar-1 ul{
+    display: block;
+    margin: 10px;
+
+}
+.navbar ul li:hover .navbar-1 ul li{
+    width:150px;
+    padding: 1opx;
+    background:transparent;
+    border-bottom: 1px dotted  #fff;
+    text-align: left;
+    border-radius: 0;
+
+}
+.navbar ul li:hover .navbar-1 ul li:last-child{
+    border-bottom: none;
+
+}
+.navbar ul li:hover .navbar-1 ul li a:hover{
+    color: #e4ec0f;
+
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: 40px;
+    margin-left: 140px;
+    background: rgb(56, 62, 56);
+
+}
